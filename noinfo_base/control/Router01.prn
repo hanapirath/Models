@@ -1,0 +1,107 @@
+
+	********************************************
+	|                                          |
+	|         Router - Version 4.0.66          |
+	|   Copyright (c) 2009 by AECOM Consult    |
+	|         Wed Dec 11 15:07:52 2013         |
+	|                                          |
+	********************************************
+
+	Control File = Router01.ctl
+	Report_File  = Router01.prn (Create)
+
+	Initial Route All Travelers
+
+	Project Directory = ../
+
+	Network Directory = ../network/
+	Node File = ../network/Node.txt
+	Node File Format = TAB_DELIMITED
+	Link File = ../network/Link.txt
+	Link File Format = TAB_DELIMITED
+	Lane Connectivity File = ../network/Lane_Connectivity.txt
+	Lane Connectivity File Format = TAB_DELIMITED
+	Parking File = ../network/Parking.txt
+	Parking File Format = TAB_DELIMITED
+	Activity Location File = ../network/Activity_Location.txt
+	Activity Location File Format = TAB_DELIMITED
+	Process Link File = ../network/Process_Link.txt
+	Process Link File Format = TAB_DELIMITED
+
+	Vehicle File = ../demand/Vehicle
+	Vehicle File will be Sorted by Vehicle ID
+
+	Trip File = ../demand/Trip
+
+	Time of Day Format = SECONDS
+
+	New Plan File = ../plan/Plan01
+	Plan File will contain Node List Paths
+
+	Access to Parking Lots will be Limited to Process Links
+	Walk Path Details will be written to the Plan File
+	Activity Schedule Constraints will be Ignored
+	Routing Errors will Terminate Plan Construction
+
+	Percent Random Impedance = 100
+	Random Number Seed = 1
+
+	Walk Speed = 1.00 meters per second
+	Bicycle Speed = 4.00 meters per second
+
+	Walk Time Value = 20.00 impedance units per second
+	Bicycle Time Value = 15.00 impedance units per second
+	Vehicle Time Value = 10.00 impedance units per second
+	Distance Value = 0.00 impedance units per meter
+	Cost Value = 0.00 impedance units per cent
+
+	Maximum Walk Distance = 500 meters
+	Maximum Bicycle Distance = 10000 meters
+
+	Link Delay Updates are Disabled
+
+	New Problem File = ../plan/PlanProblems01
+	Maximum Number of Routing Problems = 100000
+	Initial Route All Travelers
+	Wed Dec 11 15:07:52 2013  Router  page 2
+
+
+	Number of Node File Records = 121
+
+	Number of Link File Records = 220
+	Number of Directional Links = 440
+
+	Number of Lane Connectivity File Records = 2620
+	Number of Lane Connectivity Data Records = 1196
+
+	Number of Parking File Records = 440
+
+	Number of Activity Location File Records = 440
+
+	Number of Process Link File Records = 880
+
+	Number of Vehicle File Records = 60000
+
+	Number of Links in the Walk Network = 220
+	Number of Links in the Bicycle Network = 220
+	Number of Directional Links in the Highway Network = 440
+
+	Number of Highway Link Connections = 1196
+
+	Number of Trip Records = 60000
+	Number of Trips Processed = 60000
+
+	Number of Households Processed = 60000
+	Number of Vehicle Trips Saved = 59999
+
+	Number of Output Plans = 179998
+	Number of Output Records = 1217446
+	Number of Output Travelers = 60000
+	Number of Output Trips = 59999
+
+	Percent of Total Trips with Problems = 0.0%
+
+	Total Number of Problems = 1
+	Number of Zero Node (#3) Problems = 1 (100.0%)
+
+	Wed Dec 11 15:07:56 2013 -- Process Complete (0:00:04)

@@ -1,0 +1,24 @@
+TITLE		New Link Delay file from two other link dealy file
+
+PROJECT_DIRECTORY		../
+NET_DIRECTORY			../network/
+NET_LINK_TABLE			Link.txt
+NET_LANE_CONNECTIVITY_TABLE		Lane_Connectivity.txt
+
+DEFAULT_FILE_FORMAT		TAB_DELIMITED
+
+#--- Input Files ---
+LINK_DELAY_FILE		results/NewLinkDelay.txt
+LINK_DELAY_FORMAT		TAB_DELIMITED
+PREVIOUS_LINK_DELAY_FILE		results/PrevLinkDelay.txt
+PREVIOUS_LINK_DELAY_FORMAT		TAB_DELIMITED
+
+#--- Output Files ---
+NEW_LINK_DELAY_FILE		results/LinkDelay.txt
+NEW_LINK_DELAY_FORMAT		TAB_DELIMITED
+
+#--- Parameters ---
+PROCESSING_METHOD		WEIGHTED_AVERAGE
+PREVIOUS_WEIGHTING_FACTOR		${i1}
+SMOOTH_GROUP_SIZE		0
+

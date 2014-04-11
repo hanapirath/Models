@@ -1,0 +1,77 @@
+
+	********************************************
+	|                                          |
+	|      ConvertTrips - Version 4.0.20       |
+	|   Copyright (c) 2009 by AECOM Consult    |
+	|         Mon Dec 09 18:43:57 2013         |
+	|                                          |
+	********************************************
+
+	Control File = ConvertTrips.ctl
+	Report_File  = ConvertTrips.prn (Create)
+
+	Trip Table Conversion
+
+	Project Directory = ./
+
+	Network Directory = ../network
+	Activity Location File = ../network\Activity_Location.txt
+	Activity Location File Format = TAB_DELIMITED
+	Process Link File = ../network\Process_Link.txt
+	Process Link File Format = TAB_DELIMITED
+
+	Vehicle Type File = ./VEHICLE_TYPE.txt
+
+	New Household File = ./Household
+
+	New Population File = ./Population
+
+	New Vehicle File = ./Vehicle
+
+	New Trip File = ./Trip
+
+	Starting Household ID = 1
+	Starting Vehicle ID = 1
+
+	Time of Day Format = SECONDS
+
+	Additional Travel Time = 600 seconds
+
+	Random Number Seed = 1
+
+	Trip Table File #1 = ./TripTable.txt
+	Trip Time File #1 = ./TripTime1.txt
+	Time Control Point = ORIGIN
+	No Origin Weight Field --> Equal Weights
+	No Destination Weight Field --> Equal Weights
+	Trip Purpose Code = 1
+	Travel Mode Code = 2
+	Average Travel Speed = 10.0 (meters/second)
+	Vehicle Type = 1, Subtype = 0
+
+	Highest Trip Group Number = 1
+	Number of Trip Table Groups = 1
+
+
+	Number of Activity Location File Records = 440
+
+	Number of Process Link File Records = 880
+
+	Number of Vehicle Type File Records = 8
+
+	Highest Traffic Analysis Zone = 1
+
+	Processing Trip Table File #1
+	Trip Table File #1 has 1 Records and 60000 Trips	Trip Table Conversion
+	Mon Dec 09 18:43:58 2013  ConvertTrips  page 2
+
+
+	Total Number of Trips Read     = 60000
+	Total Number of Trips Written  = 60000
+	Number of Trips Not Allocated  = 0
+
+	Number of Households Generated = 60000
+	Number of Persons Generated    = 60000
+	Number of Vehicles Generated   = 60000
+
+	Mon Dec 09 18:43:58 2013 -- Process Complete (0:00:01)

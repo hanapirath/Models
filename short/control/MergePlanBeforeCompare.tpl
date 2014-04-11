@@ -1,0 +1,9 @@
+TITLE                    Merge Plan Files
+
+PROJECT_DIRECTORY	../plan
+
+INPUT_PLAN_FILE	NewPlan.p
+MERGE_PLAN_FILE	PreviousPlan
+OUTPUT_PLAN_FILE	NewPlan
+
+PLAN_SORT_OPTION	TRAVELER

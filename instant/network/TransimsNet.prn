@@ -1,0 +1,84 @@
+
+	********************************************
+	|                                          |
+	|       TransimsNet - Version 4.0.30       |
+	|   Copyright (c) 2009 by AECOM Consult    |
+	|         Sat Nov 02 23:07:01 2013         |
+	|                                          |
+	********************************************
+
+	Control File = TransimsNet.ctl
+	Report_File  = TransimsNet.prn (Create)
+
+	10x10 Grids
+
+	Default File Format = TAB_DELIMITED
+
+	Network Directory = ./
+	Node File = ./Input_Node.txt
+	Link File = ./Input_Link.txt
+
+	New Network Directory = ./
+	New Node File = ./Node.txt
+	New Link File = ./Link.txt
+	New Pocket Lane File = ./Pocket_Lane.txt
+	New Lane Connectivity File = ./Lane_Connectivity.txt
+	New Parking File = ./Parking.txt
+	New Activity Location File = ./Activity_Location.txt
+	New Process Link File = ./Process_Link.txt
+	New Unsignalized Node File = ./Unsignalized_Node.txt
+	New Signalized Node File = ./Signalized_Node.txt
+
+
+
+
+	Activity Location Side Offset = 15.00 meters
+
+	Facility Type Access Flags = 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+	Maximum Number of Access Points Per Link = 1
+
+	Minimum Split Lengths = 500 meters
+
+	Cell Size = 7.50 meters
+
+	Minimum Link Length = 37.5 meters
+
+	Maximum Length to XY Ratio = 1.20
+
+	Maximum Connection Angle = 120 degrees
+	U-Turns will not be added to Dead-End Links
+
+	Intersection Setback Distance = 0.0 meters
+
+	First External Zone Number = 0
+
+	Extra Nodes will be Removed from the Network
+
+
+	Number of Node File Records = 121
+
+	Number of Link File Records = 220
+	Number of Directional Links = 440	10x10 Grids
+	Sat Nov 02 23:07:01 2013  TransimsNet  page 2
+
+
+	Number of Input Node Records = 121
+	Number of Input Link Records = 220
+	Number of Input Zone Records = 0
+
+	Highest Zone Number = 0
+
+	Number of New Node Records = 121
+	Number of New Link Records = 220
+	Number of New Activity Location Records = 440
+	Number of New Parking Lot Records = 440
+	Number of New Process Link Records = 880
+	Number of New Pocket Lane Records = 0
+	Number of New Lane Connectivity Records = 2620
+	Number of New Unsignalized Node Records = 348
+	Number of New Signalized Node Records = 0
+
+	Number of Stop Signs = 348
+
+	Sat Nov 02 23:07:01 2013 -- Process Complete (0:00:00)

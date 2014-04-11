@@ -1,0 +1,36 @@
+
+	********************************************
+	|                                          |
+	|        PlanPrep - Version 4.0.14         |
+	|   Copyright (c) 2009 by AECOM Consult    |
+	|         Wed Dec 11 15:07:56 2013         |
+	|                                          |
+	********************************************
+
+	Control File = PlanPrep.ctl
+	Report_File  = PlanPrep.prn (Create)
+
+	Plan Sort
+
+	Project Directory = ../plan
+
+	Input Plan File = ../plan\Plan01
+
+	Output Plan File = ../plan\TimePlan01
+
+	Plan Sort Option = TIME
+
+
+	Number of Input Files = 1
+	Number of Input Plans = 179998
+	Number of Input Records = 1217446
+	Number of Input Travelers = 60000
+	Number of Input Trips = 59999
+
+	Number of Output Files = 1
+	Number of Output Plans = 179998
+	Number of Output Records = 1217446
+	Number of Output Travelers = 60000
+	Number of Output Trips = 59999
+
+	Wed Dec 11 15:07:58 2013 -- Process Complete (0:00:02)

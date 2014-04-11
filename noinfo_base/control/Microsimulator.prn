@@ -1,0 +1,197 @@
+
+	********************************************
+	|                                          |
+	|     Microsimulator - Version 4.0.76      |
+	|   Copyright (c) 2009 by AECOM Consult    |
+	|         Wed Dec 11 15:07:58 2013         |
+	|                                          |
+	********************************************
+
+	Control File = Microsimulator.ctl
+	Report_File  = Microsimulator.prn (Create)
+
+	Microsimulation
+
+	Project Directory = ../
+
+	Network Directory = ../network/
+	Node File = ../network/Node.txt
+	Node File Format = TAB_DELIMITED
+	Link File = ../network/Link.txt
+	Link File Format = TAB_DELIMITED
+	Pocket Lane File = ../network/Pocket_Lane.txt
+	Pocket Lane File Format = TAB_DELIMITED
+	Lane Connectivity File = ../network/Lane_Connectivity.txt
+	Lane Connectivity File Format = TAB_DELIMITED
+	Parking File = ../network/Parking.txt
+	Parking File Format = TAB_DELIMITED
+	Activity Location File = ../network/Activity_Location.txt
+	Activity Location File Format = TAB_DELIMITED
+	Process Link File = ../network/Process_Link.txt
+	Process Link File Format = TAB_DELIMITED
+	Unsignalized Node File = ../network/Unsignalized_Node.txt
+	Unsignalized Node File Format = TAB_DELIMITED
+	Signalized Node File = ../network/Signalized_Node.txt
+	Signalized Node File Format = TAB_DELIMITED
+	Phasing Plan File = ../network/Phasing_Plan.txt
+	Timing Plan File = ../network/Timing_Plan.txt
+	Detector File = ../network/Detector.txt
+	Signal Coordinator File = ../network/Signal_Coordinator.txt
+
+	Vehicle Type File = ../demand/Vehicle_Type.txt
+
+	Vehicle File = ../demand/Vehicle
+	Vehicle File will be Sorted by Vehicle ID
+
+	Plan File = ../plan/TimePlan01
+	Plan Files contain Node List Paths
+
+	Cell Size = 7.50 meters
+	Time Steps per Second = 1
+
+	Time of Day Format = 24_HOUR_CLOCK
+	Simulation Start Time = 0:00
+	Simulation End Time = 1@3:00
+
+	Speed Calculation Method = CELL-BASED
+
+	Plan Following Distance = 525 meters
+	Look Ahead Distance = 260 meters
+	Look Ahead Lane Factor = 4.00
+	Look Ahead Time Factor = 1.00
+	Maximum Swapping Speed = 37.5 meters/second
+	Maximum Speed Difference = 7.5 meters/second
+	Parking Lanes will be Enforced
+
+	Driver Reaction Time = 0.70 seconds	Microsimulation
+	Wed Dec 11 15:07:58 2013  Microsimulator  page 2
+
+	Permission Probability = 50.0 percent
+	Slow Down Probability = 20.0 percent
+	Slow Down Percentage = 0 percent
+	Random Number Seed = 1122687672
+
+	Minimum Waiting Time = 180 seconds
+	Maximum Waiting Time = 3600 seconds
+	Maximum Arrival Time Variance = 180 minutes
+	Maximum Departure Time Variance = 180 minutes
+
+	New Problem File = ../results/Msim_Problem.txt
+	Maximum Number of Simulation Errors = 100000
+
+	Output Snapshot File #1 = ../results/Snapshot.txt
+	Output Snapshot File #1 Format = TAB_DELIMITED
+	Output Snapshot Time Format #1 = 24_HOUR_CLOCK
+	Output Snapshot Increment #1 = 0:01
+	Output Snapshot Time Range #1 = 0:00..3:00 
+
+	Output Summary File #1 = ../results/Performance.txt
+	Output Summary File #1 Format = TAB_DELIMITED
+	Output Summary Time Format #1 = 24_HOUR_CLOCK
+	Output Summary Increment #1 = 0:15
+	Output Summary Time Range #1 = 0:00..1@3:00 
+
+	Output Occupancy File #1 = ../results/Occupancy_Avg.txt
+	Output Occupancy Time Format #1 = 24_HOUR_CLOCK
+	Output Occupancy Increment #1 = 0:15
+	Output Occupancy Time Range #1 = 0:00..1@3:00 
+	Output Occupancy Maximum Flag #1 = NO
+
+	Output Event Type #1 = RUN_TIME
+	Output Event File #1 = ../results/Event.txt
+	Output Event File #1 Format = TAB_DELIMITED
+	Output Event Filter #1 = 0 seconds
+	Output Event Time Format #1 = SECONDS
+
+	Output Speed File #1 = ../results/Speed_Bins.txt
+	Output Speed File #1 Format = TAB_DELIMITED
+	Output Speed Vehicle Type #1 = All Vehicle Types
+	Output Speed Filter #1 = 1 vehicle 
+	Output Speed Time Format #1 = 24_HOUR_CLOCK
+	Output Speed Increment #1 = 24:00
+	Output Speed Sample Time #1 = 1
+	Output Speed Box Length #1 = Full Link Length
+	Output Speed Number of Bins #1 = 6
+
+
+	Number of Node File Records = 121
+
+	Number of Link File Records = 220
+	Number of Directional Links = 440
+
+	Number of Pocket Lane File Records = 0
+
+	Number of Lane Connectivity File Records = 2620
+	Number of Lane Connectivity Data Records = 1196
+
+	Number of Parking File Records = 440
+
+	Number of Activity Location File Records = 440	Microsimulation
+	Wed Dec 11 15:07:58 2013  Microsimulator  page 3
+
+
+	Number of Process Link File Records = 880
+
+	Number of Unsignalized Node File Records = 96
+
+	Number of Timing Plan File Records = 18
+
+	Number of Signal Coordinator File Records = 9
+
+	Number of Signalized Node File Records = 9
+
+	Number of Detector File Records = 0
+
+	Number of Phasing Plan File Records = 144
+
+	Number of Vehicle Type File Records = 8
+
+	Number of Vehicle File Records = 60000
+	Number of Vehicle Cells = 60000
+
+	Number of Link Cells = 148960
+
+	Number of Signalized Intersections = 9
+	Number of Signal Controlled Movements = 108
+
+	Number of Traffic Control Signs = 96
+	Number of Sign Controlled Movements = 264
+
+	Number of Uncontrolled Left Turn Movements = 240
+
+	Simulation Started at Time 0:00
+	Simulation Ended at Time 4:24:05
+
+	Number of Plan Files = 1
+	Number of Input Plans = 179998
+	Number of Input Records = 1217446
+	Number of Input Travelers = 60000
+	Number of Input Trips = 59999
+
+	Number of Vehicle Trips Processed = 59999
+	Number of Vehicle Trips Started   = 59933 (99.9%)
+	Number of Vehicle Trips Completed = 59523 (99.2%)
+
+	Total Hours for Completed Vehicle Trips = 45033.0 hours
+	Average Travel Time for Completed Trips = 45.39 minutes
+
+	Number of Priority Movements = 72175
+	Number of Reserved Movements = 2768339
+	Number of Required Lane Changes = 450484
+	Number of Swapping Lane Changes = 884
+	Number of Long Diagonal Changes = 0
+	Number of Reserved Lane Changes = 26924
+	Number of Look-Ahead Lane Changes = 593266
+
+	Maximum Number of Vehicles on the Network = 20003 at 2:00:01
+
+	Number of Travelers with Problems = 476 (0.8%)
+
+	Total Number of Problems = 476
+	Number of Wait Time (#9) Problems = 220 (46.2%)
+	Number of Departure Time (#14) Problems = 66 (13.9%)
+	Number of Arrival Time (#15) Problems = 190 (39.9%)	Microsimulation
+	Wed Dec 11 15:12:24 2013  Microsimulator  page 4
+
+
+	Wed Dec 11 15:12:24 2013 -- Process Complete (0:04:26)
